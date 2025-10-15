@@ -18,9 +18,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include <util/threading.h>
 #include <util/platform.h>
 
-#if DROIDCAM_OVERRIDE
 #define ENABLE_GUI 1
-#endif
 
 #if ENABLE_GUI
 #include "obs.hpp"
