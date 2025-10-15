@@ -1321,7 +1321,7 @@ obs_properties_t *source_properties(void *data) {
     obs_properties_t *ppts = obs_properties_create();
     obs_property_t *cp;
     bool activated = false;
-    bool uhd_unlock = false;
+    bool uhd_unlock = true;
 
     if (plugin) {
         obs_data_t *settings = obs_source_get_settings(plugin->source);
